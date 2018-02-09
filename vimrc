@@ -1,14 +1,15 @@
 set shiftwidth=2
-set autoindent " automatically set indent of new line"
+set autoindent " automatically set indent of new line
 set encoding=utf8
 set nosmartindent
 set modelines=0
-set cursorline "Highlight current line"
-set number "show line number"
+set cursorline "Highlight current line
+set number "show line number
+set noswapfile
 
-"open nerdTree using Ctrl+n"
+"open nerdTree using Ctrl+n
 map <C-n> :NERDTreeToggle<CR>
-"show hidden files by default"
+"show hidden files by default
 let NERDTreeShowHidden=1
 
 call plug#begin('~/.vim/plugged')
@@ -25,4 +26,3 @@ Plug 'tpope/vim-endwise'
 Plug 'pangloss/vim-javascript'
 Plug 'tpope/vim-surround'
 call plug#end()
-
