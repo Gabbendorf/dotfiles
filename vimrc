@@ -25,4 +25,6 @@ Plug 'tpope/vim-dispatch'
 Plug 'tpope/vim-endwise'
 Plug 'pangloss/vim-javascript'
 Plug 'tpope/vim-surround'
+Plug 'mattn/emmet-vim'
+Plug 'digitaltoad/vim-pug'
 call plug#end()
