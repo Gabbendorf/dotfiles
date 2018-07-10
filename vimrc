@@ -10,21 +10,25 @@ set noswapfile
 "open nerdTree using Ctrl+n
 map <C-n> :NERDTreeToggle<CR>
 "show hidden files by default
+"
+map <C-p> :FZF<CR>
 let NERDTreeShowHidden=1
 
 call plug#begin('~/.vim/plugged')
-Plug 'raimondi/delimitMate'
+Plug 'cakebaker/scss-syntax.vim'
+Plug 'digitaltoad/vim-pug'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
 Plug 'mattn/emmet-vim'
+Plug 'mattn/emmet-vim'
+Plug 'ntpeters/vim-better-whitespace'
+Plug 'pangloss/vim-javascript'
+Plug 'raimondi/delimitMate'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
-Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'cakebaker/scss-syntax.vim'
-Plug 'vim-syntastic/syntastic'
-Plug 'ntpeters/vim-better-whitespace'
 Plug 'tpope/vim-dispatch'
 Plug 'tpope/vim-endwise'
-Plug 'pangloss/vim-javascript'
 Plug 'tpope/vim-surround'
-Plug 'mattn/emmet-vim'
-Plug 'digitaltoad/vim-pug'
+Plug 'vim-syntastic/syntastic'
+Plug 'elixir-editors/vim-elixir'
 call plug#end()
