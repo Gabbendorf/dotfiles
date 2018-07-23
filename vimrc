@@ -31,4 +31,5 @@ Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-surround'
 Plug 'vim-syntastic/syntastic'
 Plug 'elixir-editors/vim-elixir'
+Plug 'elmcast/elm-vim'
 call plug#end()
